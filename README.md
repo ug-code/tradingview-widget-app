@@ -1,6 +1,7 @@
 # **Tradingview Widget App**
 ### [Downloads](https://github.com/ug-code/tradingview-widget-app/tree/master/releases)
 
+![N|Solid](https://github.com/ug-code/tradingview-widget-app/raw/master/assets/screenshot.jpg)
 
 ## Building & running it locally:
 - Clone the repo.
