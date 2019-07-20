@@ -1,0 +1,16 @@
+{
+  "name": "tradingview-widget-app",
+  "version": "1.0.0",
+  "description": "Tradingview market overview widget with electronjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager ./ --platform win32 --arch x64 --out releases/"
+  },
+  "repository": "https://github.com/ug-code/tradingview-widget-app",
+  "author": "ug-code",
+  "devDependencies": {
+    "electron": "^5.0.7",
+    "electron-packager": "^14.0.2"
+  }
+}

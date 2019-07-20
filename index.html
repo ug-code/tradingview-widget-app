@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Stock Market</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/vendor/reset.css" rel="stylesheet">
+    <link href="styles/app.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="window-chrome">
+        <div class="window-controls">
+            <div class="minimize" onclick="minimizeWindow()"><img src="assets/ui/minimize.png" /></div>
+            <div class="maximize" onclick="maximizeWindow()"><img src="assets/ui/maximize.png" /></div>
+            <div class="close" onclick="closeWindow()"><img src="assets/ui/close.png" /></div>
+        </div>
+    </div>
+
+    <div class="app-controls" style="padding-left: 20px;">
+        <input type="range" value="0.95" min="0.2" max="1" step="0.05" id="transparencyRange" />
+        <button onclick="enableClickThrough()" id="clickthroughButton"><img src="assets/ui/eye.png" /></button>
+    </div>
+
+    <div id="browserView" class="full-size">
+
+        <!-- TradingView Widget BEGIN -->
+        <div id="my-widget" class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+        </div>
+        <!-- TradingView Widget END -->
+
+    </div>
+    <script type="text/javascript" src="scripts/scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+{
+  "colorTheme": "dark",
+  "showChart": false,
+  "locale": "tr",
+  "width": "100%",
+  "height": "100%",
+  "largeChartUrl": "",
+  "isTransparent": false,
+  "plotLineColorGrowing": "rgba(25, 118, 210, 1)",
+  "plotLineColorFalling": "rgba(25, 118, 210, 1)",
+  "gridLineColor": "rgba(42, 46, 57, 1)",
+  "scaleFontColor": "rgba(120, 123, 134, 1)",
+  "belowLineFillColorGrowing": "rgba(33, 150, 243, 0.12)",
+  "belowLineFillColorFalling": "rgba(33, 150, 243, 0.12)",
+  "symbolActiveColor": "rgba(33, 150, 243, 0.12)",
+  "tabs": [
+    {
+      "title": "Forex",
+      "symbols": [
+        {
+          "s": "BITFINEX:BTCTRY"
+        },
+        {
+          "s": "BINANCE:BTCUSDT"
+        },
+        {
+          "s": "XAUUSD"
+        },
+        {
+          "s": "BIST:SODA"
+        },
+        {
+          "s": "BIST:KRDMD"
+        },
+        {
+          "s": "USDTRY"
+        },
+        {
+          "s": "XAUUSD/31.1*USDTRY"
+        }
+      ],
+      "originalTitle": "Forex"
+    }
+  ]
+}
